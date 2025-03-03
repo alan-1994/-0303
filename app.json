@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/location/location"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "潮汐表精灵版",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于查找附近的港口潮汐数据"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3B8CFF",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "潮汐表",
+        "iconPath": "images/tide_icon.png",
+        "selectedIconPath": "images/tide_icon_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
